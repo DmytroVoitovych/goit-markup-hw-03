@@ -1,0 +1,179 @@
+:root {
+  --akcent-color: #2196f3;
+  --second-color: #757575;
+  --background: #f5f4fa;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+/*оформляем шапку  */
+/* логотип */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.logo span {
+  color: var(--akcent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  text-decoration: underline var(--akcent-color);
+}
+
+.pf-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: #212121;
+}
+
+.link.current {
+  color: var(--akcent-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--akcent-color);
+}
+
+.kontakt {
+  text-decoration: none;
+  color: var(--second-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.kontakt:hover,
+.kontakt:focus {
+  color: var(--akcent-color);
+}
+/* начинаю работу над оформлением героя */
+.hero {
+  background: #2f303a;
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.button-hero {
+  color: var(--white-color);
+  background: var(--akcent-color);
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* начинаю работу над списком особенностей компании  */
+
+.featurs-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.featurs-list {
+  list-style: none;
+}
+
+.disc-featurs {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+/* начинаю оформлять секцию о занятиях компании */
+.title-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.list-img {
+  list-style: none;
+}
+/* Начинаю оформлять секцию "Наша команда" */
+.our-team {
+  background: #f5f4fa;
+}
+.li-team {
+  background-color: var(--white-color);
+}
+.title-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+.disc-team {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/*начинаю работу над футером */
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+.footer {
+  background: #2f303a;
+}
+.info {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo-footer span {
+  color: var(--akcent-color);
+}

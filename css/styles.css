@@ -1,0 +1,156 @@
+/* создаем палитру цветов */
+/* цвет фона #FFFFFF */
+/* основной цвет #212121 */
+/* второй цвет  #757575 */
+/* цвет акцента  color: #2196F3;*/
+
+:root {
+  --akcent-color: #2196f3;
+  --second-color: #757575;
+  --background: #f5f4fa;
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto, sans-serif;
+}
+
+/*оформляем шапку  */
+/* логотип */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.logo span {
+  color: var(--akcent-color);
+}
+
+.logo:hover,
+.logo:focus {
+  text-decoration: underline var(--akcent-color);
+}
+
+.pf-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  list-style: none;
+  color: #212121;
+}
+
+.link.current {
+  color: var(--akcent-color);
+  text-decoration: none;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--akcent-color);
+}
+
+.kontakt {
+  text-decoration: none;
+  color: var(--second-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.kontakt:hover,
+.kontakt:focus {
+  color: var(--akcent-color);
+}
+/* начинаю оформление кнопок */
+.filter {
+  list-style: none;
+}
+
+.button {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #f5f4fa;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:hover {
+  color: #ffffff;
+  background-color: var(--akcent-color);
+}
+/* начинаю делать секцию с проэктами */
+.list-project {
+  list-style: none;
+}
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.title:hover {
+  color: var(--akcent-color);
+  cursor: default;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-color);
+}
+
+/*начинаю работу над футером */
+.address {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+.footer {
+  background: #2f303a;
+}
+.info {
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+.logo-footer {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.logo-footer span {
+  color: var(--akcent-color);
+}
