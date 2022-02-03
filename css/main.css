@@ -5,6 +5,15 @@
   --white-color: #ffffff;
 }
 
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffffff;
   color: #212121;
@@ -13,6 +22,22 @@ body {
 
 /*оформляем шапку  */
 /* логотип */
+.header {
+  outline: 1px solid tomato;
+}
+
+.container-h {
+  width: 1170px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -73,6 +98,7 @@ body {
 /* начинаю работу над оформлением героя */
 .hero {
   background: #2f303a;
+  text-align: center;
 }
 .title-hero {
   font-weight: 900;
@@ -82,6 +108,9 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding-top: 200px;
 }
 .button-hero {
   color: var(--white-color);
@@ -94,6 +123,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  margin-bottom: 294px;
 }
 /* начинаю работу над списком особенностей компании  */
 
@@ -103,9 +133,15 @@ body {
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 .featurs-list {
   list-style: none;
+}
+.featurs {
+  padding-bottom: 69px;
+  padding-top: 119px;
 }
 
 .disc-featurs {
@@ -113,6 +149,8 @@ body {
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 /* начинаю оформлять секцию о занятиях компании */
 .title-section {
@@ -121,28 +159,48 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.our-team .title-section {
+  padding-top: 94px;
+}
+.makes {
+  padding-bottom: 94px;
 }
 .list-img {
   list-style: none;
+  margin: 0;
+  padding-left: 0;
+  padding-bottom: 94px;
 }
 /* Начинаю оформлять секцию "Наша команда" */
 .our-team {
   background: #f5f4fa;
+  outline: 1px solid tomato;
 }
 .li-team {
   background-color: var(--white-color);
+  width: 270px;
 }
 .title-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-align: center;
 }
 .disc-team {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--second-color);
+  margin: 0;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 /*начинаю работу над футером */
@@ -152,9 +210,15 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+.address-kontakt {
+  padding-bottom: 60px;
 }
 .footer {
   background: #2f303a;
+  padding-top: 60px;
 }
 .info {
   text-decoration: none;
@@ -164,6 +228,10 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
 }
+.info:first-child {
+  display: inline-block;
+  margin-bottom: 9px;
+}
 .logo-footer {
   font-family: Raleway;
   font-weight: 700;
@@ -172,6 +240,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .logo-footer span {
