@@ -38,6 +38,12 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+.nav-main {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: Raleway;
   font-weight: 700;
@@ -58,17 +64,27 @@ body {
 }
 
 .pf-list {
+  display: flex;
+  margin-left: 93px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   list-style: none;
 }
-
+.pf-list .list:not(:last-child) {
+  margin-right: 50px;
+}
 .link {
+  display: block;
   text-decoration: none;
   list-style: none;
   color: #212121;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .link.current {
@@ -89,6 +105,13 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.nav-flex {
+  display: flex;
+  margin-left: auto;
+}
+.nav-flex .kontakt:not(:last-child) {
+  margin-right: 50px;
 }
 
 .kontakt:hover,
