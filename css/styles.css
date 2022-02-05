@@ -216,9 +216,14 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 9px;
 }
+
 .footer {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .info {
   text-decoration: none;
@@ -227,6 +232,10 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
+}
+.info:first-child {
+  display: inline-block;
+  margin-bottom: 9px;
 }
 .logo-footer {
   font-family: Raleway;
