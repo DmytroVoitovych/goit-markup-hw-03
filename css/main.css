@@ -217,12 +217,23 @@ body {
 }
 /* Начинаю оформлять секцию "Наша команда" */
 .our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background: #f5f4fa;
   outline: 1px solid tomato;
 }
 .li-team {
   background-color: var(--white-color);
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.list-img .li-team:not(:last-child) {
+  margin-right: 30px;
+}
+.our-team .title-section {
+  padding: 0;
 }
 .title-team {
   font-weight: 500;
@@ -254,12 +265,11 @@ body {
   margin-top: 20px;
   margin-bottom: 9px;
 }
-.address-kontakt {
-  padding-bottom: 60px;
-}
+
 .footer {
   background: #2f303a;
   padding-top: 60px;
+  padding-bottom: 60px;
 }
 .info {
   text-decoration: none;
@@ -281,7 +291,6 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #ffffff;
-  margin-bottom: 20px;
 }
 
 .logo-footer span {
