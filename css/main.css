@@ -22,9 +22,6 @@ body {
 
 /*оформляем шапку  */
 /* логотип */
-.header {
-  outline: 1px solid tomato;
-}
 
 .container-h {
   width: 1200px;
@@ -164,11 +161,8 @@ body {
 .featurs {
   padding-bottom: 94px;
   padding-top: 94px;
-  outline: 2px solid tomato;
 }
-.featurs .container {
-  outline: 2px solid tomato;
-}
+
 .disc-featurs {
   font-size: 14px;
   line-height: 1.7;
@@ -220,7 +214,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
-  outline: 1px solid tomato;
 }
 .li-team {
   background-color: var(--white-color);
