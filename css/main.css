@@ -208,9 +208,12 @@ body {
 }
 .list-img {
   list-style: none;
+  display: flex;
   margin: 0;
   padding-left: 0;
-  padding-bottom: 94px;
+}
+.list-img .item-img:not(:last-child) {
+  margin-right: 30px;
 }
 /* Начинаю оформлять секцию "Наша команда" */
 .our-team {
