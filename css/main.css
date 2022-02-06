@@ -234,7 +234,6 @@ body {
   line-height: 1.18;
   letter-spacing: 0.03em;
   margin: 0;
-  margin-top: 30px;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -244,8 +243,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--second-color);
   margin: 0;
-  padding-bottom: 30px;
   text-align: center;
+}
+.li-team .disc {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /*начинаю работу над футером */

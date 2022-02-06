@@ -146,6 +146,10 @@ body {
 }
 
 .button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
@@ -169,6 +173,7 @@ body {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
+  /* margin: -15px; - древний способ */
   margin: 0;
   padding: 0;
 }
@@ -176,6 +181,7 @@ body {
 .list-project .item {
   width: 370px;
   border: 1px solid #eeeeee;
+  /* margin: 15px; - древний способ */
   margin-right: 30px;
 }
 .list-project .item:nth-last-child(-n + 6) {
@@ -185,9 +191,8 @@ body {
   margin-right: 0;
 }
 .title {
-  margin-top: 20px;
+  margin-top: 0;
   margin-bottom: 4px;
-  margin-left: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -200,15 +205,18 @@ body {
 }
 
 .desc {
-  margin-left: 24px;
   margin-top: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-color);
 }
-
+.desc-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
 /*начинаю работу над футером */
 .address {
   font-size: 14px;
